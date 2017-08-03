@@ -1,4 +1,4 @@
-var url = 'http://api.icndb.com/jokes/random';
+var url = 'https://api.icndb.com/jokes/random';
 var $button = $('#get-joke').click(function() {
 	getJoke();
 });
@@ -15,7 +15,7 @@ function getJoke() {
 getJoke();
 
 
-// var url = 'http://api.icndb.com/jokes/random';
+// var url = 'https://api.icndb.com/jokes/random';
 // var button = document.getElementById('get-joke');
 // button.addEventListener('click', function(){
 //     getJoke();
